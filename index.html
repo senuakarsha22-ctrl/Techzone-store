@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechZone | Modern Electronics & Gadgets</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="navbar">
+    <div class="nav-logo">
+      <a href="#">Tech<span>Zone</span></a>
+    </div>
+
+    <div class="nav-search">
+      <input type="text" placeholder="Search smartphones, laptops, audio, gaming...">
+      <button class="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div class="nav-tools">
+      <a href="#" class="nav-link"><i class="fa-regular fa-user"></i> Account</a>
+      <a href="#" class="nav-link"><i class="fa-regular fa-heart"></i> Wishlist</a>
+      <a href="#" class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart</span>
+        <span class="cart-count">3</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Secondary Category Navigation Bar -->
+  <nav class="sub-nav">
+    <a href="#special-offers"><i class="fa-solid fa-bolt"></i> Today's Deals</a>
+    <a href="#smartphones">Smartphones</a>
+    <a href="#laptops">Laptops</a>
+    <a href="#audio">Audio & Headphones</a>
+    <a href="#wearables">Smartwatches</a>
+    <a href="#gaming">Gaming Accessories</a>
+  </nav>
+
+  <!-- Hero Section / Special Offers -->
+  <section class="hero-banner" id="special-offers">
+    <div class="hero-content">
+      <span class="badge new-arrival">New Arrival</span>
+      <h1>Next-Gen Tech is Here</h1>
+      <p>Save up to 30% on premier gaming gear, flagship smartphones, and noise-canceling headphones.</p>
+      <div class="hero-actions">
+        <a href="#gaming" class="btn btn-primary">Shop Deals</a>
+        <a href="#smartphones" class="btn btn-secondary">Explore Flagships</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="main-container">
+
+    <!-- CATEGORY 1: SMARTPHONES -->
+    <section class="category-section" id="smartphones">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-mobile-screen-button"></i> Smartphones</h2>
+        <a href="#" class="view-all">View All Smartphones &rarr;</a>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <span class="tag offer">-15% OFF</span>
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80" alt="Apex Pro Ultra">
+          <div class="product-info">
+            <h3 class="product-name">Apex Pro Ultra 5G</h3>
+            <p class="product-desc">6.7" AMOLED 120Hz display, 200MP camera system, 5000mAh battery.</p>
+            <div class="price-container">
+              <span class="price">$999.99</span>
+              <span class="original-price">$1,179.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="tag new">New</span>
+          <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80" alt="Nova Lite X">
+          <div class="product-info">
+            <h3 class="product-name">Nova Lite X</h3>
+            <p class="product-desc">Sleek compact design, dual camera setup, and all-day battery life.</p>
+            <div class="price-container">
+              <span class="price">$499.00</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=400&q=80" alt="FoldFlex Z">
+          <div class="product-info">
+            <h3 class="product-name">FoldFlex Z Foldable</h3>
+            <p class="product-desc">Flexible OLED glass, multi-tasking split view, aluminum frame.</p>
+            <div class="price-container">
+              <span class="price">$1,399.00</span>
+            </div>
+            <p class="stock low-stock"><i class="fa-solid fa-triangle-exclamation"></i> Only 2 left!</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CATEGORY 2: LAPTOPS -->
+    <section class="category-section" id="laptops">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-laptop"></i> Laptops & Workstations</h2>
+        <a href="#" class="view-all">View All Laptops &rarr;</a>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <span class="tag offer">Hot Deal</span>
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="ZenBook Blade 14">
+          <div class="product-info">
+            <h3 class="product-name">ZenBook Blade 14</h3>
+            <p class="product-desc">Ultra-thin ultrabook with M-series processing power, 16GB RAM, 512GB SSD.</p>
+            <div class="price-container">
+              <span class="price">$1,199.99</span>
+              <span class="original-price">$1,399.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=400&q=80" alt="Titan RTX Gaming Laptop">
+          <div class="product-info">
+            <h3 class="product-name">Titan RTX Gaming 16</h3>
+            <p class="product-desc">Intel i9, RTX 4080 GPU, 240Hz display built for heavy gaming and rendering.</p>
+            <div class="price-container">
+              <span class="price">$2,199.00</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=400&q=80" alt="Chromebook Go 11">
+          <div class="product-info">
+            <h3 class="product-name">Chromebook Go 11</h3>
+            <p class="product-desc">Lightweight budget laptop with fast cloud performance & 12hr battery.</p>
+            <div class="price-container">
+              <span class="price">$249.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CATEGORY 3: AUDIO & HEADPHONES -->
+    <section class="category-section" id="audio">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-headphones"></i> Audio & Headphones</h2>
+        <a href="#" class="view-all">View All Audio &rarr;</a>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <span class="tag offer">Save $50</span>
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80" alt="SonicANC Wireless Studio">
+          <div class="product-info">
+            <h3 class="product-name">SonicANC Wireless Studio</h3>
+            <p class="product-desc">Active noise cancellation, 40-hour playtime, spatial surround audio.</p>
+            <div class="price-container">
+              <span class="price">$199.99</span>
+              <span class="original-price">$249.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="tag new">New</span>
+          <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=400&q=80" alt="Pulse Buds Pro">
+          <div class="product-info">
+            <h3 class="product-name">Pulse Buds Pro</h3>
+            <p class="product-desc">True wireless earbuds with custom EQ tuning and wireless charging case.</p>
+            <div class="price-container">
+              <span class="price">$129.50</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" alt="BoomBox Max Bluetooth">
+          <div class="product-info">
+            <h3 class="product-name">BoomBox Max Bluetooth</h3>
+            <p class="product-desc">IPX7 waterproof outdoor Bluetooth speaker with deep punchy bass.</p>
+            <div class="price-container">
+              <span class="price">$89.99</span>
+            </div>
+            <p class="stock out-of-stock"><i class="fa-solid fa-circle-xmark"></i> Out of Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart" disabled><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now" disabled>Unavailable</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CATEGORY 4: SMARTWATCHES / WEARABLES -->
+    <section class="category-section" id="wearables">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-stopwatch"></i> Smartwatches & Wearables</h2>
+        <a href="#" class="view-all">View All Wearables &rarr;</a>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80" alt="FitTrack Active 2">
+          <div class="product-info">
+            <h3 class="product-name">FitTrack Active 2</h3>
+            <p class="product-desc">Heart rate monitor, GPS tracking, sleep analytics, 7-day battery life.</p>
+            <div class="price-container">
+              <span class="price">$149.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="tag offer">Best Seller</span>
+          <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=400&q=80" alt="Chronos Elite Watch">
+          <div class="product-info">
+            <h3 class="product-name">Chronos Elite Titanium</h3>
+            <p class="product-desc">Premium sapphire glass, ECG monitoring, cellular connectivity built-in.</p>
+            <div class="price-container">
+              <span class="price">$379.99</span>
+              <span class="original-price">$429.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=400&q=80" alt="AeroBand Smart Ring">
+          <div class="product-info">
+            <h3 class="product-name">AeroBand Smart Health Ring</h3>
+            <p class="product-desc">Minimalist biometric tracking ring with temperature and oxygen sensors.</p>
+            <div class="price-container">
+              <span class="price">$219.00</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CATEGORY 5: GAMING ACCESSORIES -->
+    <section class="category-section" id="gaming">
+      <div class="section-header">
+        <h2><i class="fa-solid fa-gamepad"></i> Gaming Accessories</h2>
+        <a href="#" class="view-all">View All Gaming Gear &rarr;</a>
+      </div>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <span class="tag new">Top Rated</span>
+          <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=400&q=80" alt="Vortex Pro Controller">
+          <div class="product-info">
+            <h3 class="product-name">Vortex Wireless Controller</h3>
+            <p class="product-desc">Programmable back paddles, haptic feedback triggers, multi-platform support.</p>
+            <div class="price-container">
+              <span class="price">$69.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80" alt="RGB Mechanical Keyboard">
+          <div class="product-info">
+            <h3 class="product-name">RGB Mechanical Keyboard</h3>
+            <p class="product-desc">Hot-swappable tactile switches with customizable per-key RGB lighting.</p>
+            <div class="price-container">
+              <span class="price">$119.99</span>
+              <span class="original-price">$139.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=400&q=80" alt="Precision Gaming Mouse">
+          <div class="product-info">
+            <h3 class="product-name">HyperGlide Wireless Mouse</h3>
+            <p class="product-desc">Ultra-lightweight 58g design, 26K DPI optical sensor, PTFE feet.</p>
+            <div class="price-container">
+              <span class="price">$79.99</span>
+            </div>
+            <p class="stock in-stock"><i class="fa-solid fa-circle-check"></i> In Stock</p>
+            <div class="card-actions">
+              <button class="btn-add-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+              <button class="btn-buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>TechZone</h3>
+        <p>Your one-stop destination for modern electronics, gadgets, and tech accessories.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="#smartphones">Smartphones</a></p>
+        <p><a href="#laptops">Laptops</a></p>
+        <p><a href="#special-offers">Special Offers</a></p>
+      </div>
+      <div>
+        <h4>Customer Care</h4>
+        <p><a href="#">Track Order</a></p>
+        <p><a href="#">Return Policy</a></p>
+        <p><a href="#">Support Center</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 TechZone Gadget Store. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
+
